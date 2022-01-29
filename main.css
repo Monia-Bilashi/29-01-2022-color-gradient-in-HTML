@@ -1,0 +1,186 @@
+    .conic {
+        background-image: linear-gradient(to left, rgba(105, 105, 211, 0.383), rgba(192, 101, 101, 0.493), rgba(128, 128, 128, 0.342));
+        padding: 20px;
+    }
+    
+    .conic h2,
+    .radial h2,
+    .linear h2 {
+        text-align: center;
+        text-decoration: underline;
+        box-shadow: 4px 6px 10px black;
+    }
+    
+    table {
+        border: 1px solid white;
+        border-collapse: collapse;
+        box-shadow: 8px 6px 3px black;
+        margin-bottom: 20px;
+    }
+    
+    tr {
+        height: 200px;
+        border: 2px solid gray;
+    }
+    
+    td {
+        width: 200px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    
+    .conic-3-1 {
+        background-image: conic-gradient(red, yellow, green);
+    }
+    
+    .conic-3-2 {
+        background-image: conic-gradient(black, rgb(68, 68, 21), rgb(4, 78, 4));
+    }
+    
+    .conic-3-3 {
+        background-image: conic-gradient(rgb(26, 10, 99), rgb(117, 22, 78), rgb(121, 70, 23));
+    }
+    
+    .conic-3-4 {
+        background-image: conic-gradient(purple, black, blue);
+    }
+    
+    .conic-3-5 {
+        background-image: conic-gradient(hotpink, teal, orange);
+    }
+    
+    .conic-3-6 {
+        background-image: conic-gradient(at 70% 80%, gray, white, red);
+    }
+    
+    .conic-3-7 {
+        background-image: conic-gradient(at 30% 60%, red, green, lightblue);
+    }
+    
+    .conic-5-1 {
+        background-image: conic-gradient(red, green, blue, pink, black);
+    }
+    
+    .conic-5-2 {
+        background-image: conic-gradient(red 10deg, green 80deg, blue 90deg, pink, black 270deg);
+    }
+    
+    .conic-5-3 {
+        background-image: conic-gradient(hotpink, black, teal, white, yellow 270deg);
+    }
+    
+    .conic-5-4 {
+        background-image: conic-gradient(hotpink 45deg, black 90deg, teal 180deg, white, yellow 360deg);
+    }
+    
+    .conic-radius {
+        background-image: conic-gradient(red, yellow, green, blue, black);
+        border-radius: 50%;
+    }
+    
+    .conic-radius-2 {
+        background-image: conic-gradient(hotpink 45deg, black 90deg, teal 180deg, white, yellow 360deg);
+        border-radius: 50%;
+    }
+    
+    .conic-pie {
+        background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+        border-radius: 50%;
+    }
+    
+    .repeating-conic-1 {
+        background-image: repeating-conic-gradient(red 10deg, green 20deg);
+    }
+    
+    .repeating-conic-2 {
+        border-radius: 50%;
+        background-image: repeating-conic-gradient(red 10%, blue 20%, green 30%);
+    }
+    
+    .repeating-conic-3 {
+        border-radius: 50%;
+        background-image: repeating-conic-gradient(red 0deg 20deg, green 10deg 45deg, yellow 45deg 60deg);
+    }
+    
+    .radial {
+        background-image: linear-gradient(to bottom, rgb(221, 155, 155), gray, rgba(0, 128, 128, 0.301));
+        padding: 20px;
+    }
+    
+    .radial-default {
+        background-image: radial-gradient(red, green, blue, yellow);
+    }
+    
+    .radial-diff-spaced {
+        background-image: radial-gradient(red 10%, green 20%, blue 30%, yellow 40%, teal 50%, black 60%, hotpink 70%, white 80%);
+    }
+    
+    .radial-set-shape-ellipse {
+        background-image: radial-gradient(red, blue, yellow, gray, green);
+    }
+    
+    .radial-set-shape-circle {
+        background-image: radial-gradient(circle, red, blue, yellow);
+    }
+    
+    .radial-set-shape-losest-side {
+        background-image: radial-gradient(closest-side at 60% 55%, red, yellow, green);
+    }
+    
+    .radial-set-shape-farthest-side {
+        background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, green);
+    }
+    
+    .radial-repeat {
+        background-image: repeating-radial-gradient(red 10%, yellow 20%, green 30%, blue 40%);
+    }
+    
+    .linear {
+        background-image: radial-gradient(lightblue, gray, rgb(187, 72, 89), yellow, blue);
+        padding: 20px;
+    }
+    
+    .linear-def {
+        background-image: linear-gradient(red, green, blue, violet);
+    }
+    
+    .linear-left-to-right {
+        background-image: linear-gradient(to left, red, green, blue, violet);
+    }
+    
+    .linear-right-to-left {
+        background-image: linear-gradient(to right, red, green, blue, violet);
+    }
+    
+    .linear-to-bottom-right {
+        background-image: linear-gradient(to bottom right, red, yellow, blue, green);
+    }
+    
+    .linear-to-bottom-left {
+        background-image: linear-gradient(to bottom left, red, yellow, blue, green);
+    }
+    
+    .rainbow {
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        width: 1000px;
+    }
+    
+    .linear-repeat {
+        background-image: repeating-linear-gradient(blue 10%, green 20%, hotpink 30%, teal 40%);
+        width: 1000px;
+    }
+    
+    .linear-gradient-transp1 {
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+        width: 1000px;
+    }
+    
+    .linear-gradient-transp2 {
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(51, 40, 77, 0.685));
+        width: 1000px;
+    }
+    
+    .linear-gradient-transp3 {
+        background-image: linear-gradient(rgba(230, 230, 230, 0.1));
+        width: 1000px;
+    }
